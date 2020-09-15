@@ -91,3 +91,68 @@ namespace RiseOfTheTamagotchiColter
         }
     }
 }
+
+/*
+
+
+//Problem
+Create a CRUD application for a Tamagotchi API.
+
+Create - Create new Tamagotchi pet and store them in a datbase.
+
+Read – Retrieve pets from a database.
+
+Update - Update an entry for a pet in the database.
+
+Delete – Delete an entry fro a pet in the database.
+
+
+//Examples
+new pet = 
+{
+
+ID (Int) = 1,
+Name(String) = "Jason",
+Birthday(DateTime) = 1/26/1995 at 12:00 PM,
+Hunger Level(Int) = 1,
+Happiness Level(Int) = 5
+}
+
+
+//Data
+
+Int, String, DateTime
+
+Class, Method
+
+
+//Algorithm
+
+Create a Class for Pet
+
+Connect the Pet Class to a SQL Database called Pets
+
+Ensure that the datbase will save changes made in the code
+
+Create a controller for Get all Pets command
+
+Create a controller to Get a pet with a certain ID
+
+Create a controller for the Post command
+
+Create a controller for Playtime (should find the pet by id and add 5 to its happiness level and 3 to its hungry level)
+
+Create a controller for Feeding (should find the pet by id and subtract 5 from its hungry level and 3 from its happiness level)
+
+Create a controller for Scolding (should find the pet by id and subtract 5 from its happiness level)
+
+Create a controller for Delete using the ID as a guide
+
+Upload the code to Heroku
+
+
+
+//Code
+
+
+*/
